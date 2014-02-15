@@ -7,7 +7,7 @@ def FizzBuzz_Ext(num, d): # d for dictionary
         verbosity += "Fizz"
     if num % 5 == 0: 
         verbosity += "Buzz"
-    for entry in filter(lambda e: num % e == 0 and e != 3 and e != 5, d): # FizzBuzz is law
+    for entry in filter(lambda e: isinstance(e, int) and isinstance(d[e], str) and num % e == 0 and e != 3 and e != 5, d): # FizzBuzz is law
         verbosity += d[entry]
     if len(verbosity) == 0:
         print num
