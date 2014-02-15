@@ -15,7 +15,7 @@ def FizzBuzz_Ext(num, d): # d for dictionary
         print verbosity
 
 #TEST
-#smiles = {3: 'Fizz', 5: 'Buzz', 4: 'Crackle', 7: 'Sivv', 9: 'Pop'}
+#smiles = {3: 'Fizz', 5: 'Buzz', 4: 'Crackle', 7: 'Sivv', 9: 'Pop', 'uhoh': 6}
 
 #print "\033[1m1-9:\033[0m"
 #for i in range(1, 10):
