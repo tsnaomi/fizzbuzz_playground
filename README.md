@@ -12,7 +12,7 @@ The function begins with an empty string called "verbosity". If the number is di
 
 Next, on lines 10-11, a lambda filters through the dictionary entries; if the number is divisible by an entry's key, that entry's value is appended to verbosity. The filter ignores any entries that are not of types dict[int] = str. The filter also ignores any entries whose keys are 3 or 5, which are reserved for "fizz" and "buzz". #fizzbuzzislaw
 
-Finally, after all of this math takes place, if verbosity is still an empty string, the function prints the number. Otherwise, the function prints the onomatopoetic verbosity. Done! 
+Finally, after all of this math takes place, if verbosity is still an empty string, the function returns the number. Otherwise, the function returns the onomatopoetic verbosity.  
 
 
 Thank you to Luke P. for adivising me to use a dictionary as the second parameter! Also, I borrowed the term onomatopoeia from his solution :D
