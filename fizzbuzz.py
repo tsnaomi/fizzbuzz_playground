@@ -3,14 +3,14 @@
 def FizzBuzz(num):
     ''' A method that takes one number as an argument. For multiples of three, it returns Fizz, and for multiples of five, it returns Buzz. For numbers which are multiples of both three and five, it returns FizzBuzz. In all other cases, it returns the number. '''
     if num % (3 * 5) == 0: 
-        print "FizzBuzz"
+        return "FizzBuzz"
     elif num % 3 == 0:
-        print "Fizz"
+        return "Fizz"
     elif num % 5 == 0: 
-        print "Buzz"
+        return "Buzz"
     else:
-        print num
+        return num
 
 #TEST
 #for i in range(1,101):
-#    FizzBuzz(i)
+#    print FizzBuzz(i)
