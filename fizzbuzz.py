@@ -9,7 +9,7 @@ def FizzBuzz(num):
     elif num % 5 == 0: 
         return "Buzz"
     else:
-        return num
+        return str(num)
 
 #TEST
 #for i in range(1,101):
