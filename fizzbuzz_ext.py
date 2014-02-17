@@ -10,7 +10,7 @@ def FizzBuzz_Ext(num, d): # d for dictionary
     for entry in filter(lambda e: isinstance(e, int) and isinstance(d[e], str) and num % e == 0 and e != 3 and e != 5, d): # FizzBuzz is law
         verbosity += d[entry]
     if len(verbosity) == 0:
-        return num
+        return str(num)
     else:				
         return verbosity
 
