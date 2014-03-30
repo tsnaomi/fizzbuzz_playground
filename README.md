@@ -1,4 +1,4 @@
-fizzbuzz_playgroud
+Fizzbuzz Playgroud
 ==================
 
 Where the fizzbuzz play.
@@ -14,5 +14,4 @@ Next, on lines 10-11, a lambda filters through the dictionary entries; if the nu
 
 Finally, after all of this math takes place, if verbosity is still an empty string, the function returns the number. Otherwise, the function returns the onomatopoetic verbosity.  
 
-
-Thank you to Luke P. for adivising me to use a dictionary as the second parameter! Also, I borrowed the term onomatopoeia from his solution :D
+Thank you to [Luke P.](https://github.com/lhp81/) for adivising me to use a dictionary as the second parameter.
